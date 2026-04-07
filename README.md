@@ -1,12 +1,12 @@
 # Explainable_AI
 
-A toxic comment classification project that compares **LIME explanations** and **counterfactual text explanations** for **faithfulness** and **actionability** on a YouTube comments toxicity dataset. The project trains a **Logistic Regression** classifier on **TF-IDF** text features, then uses explainability methods to show why a comment is predicted as toxic and how it could be changed to flip the prediction. :contentReference[oaicite:0]{index=0} :contentReference[oaicite:1]{index=1}
+A toxic comment classification project that compares **LIME explanations** and **counterfactual text explanations** for **faithfulness** and **actionability** on a YouTube comments toxicity dataset. The project trains a **Logistic Regression** classifier on **TF-IDF** text features, then uses explainability methods to show why a comment is predicted as toxic and how it could be changed to flip the prediction. 
 
 ## Project Goal
 
 This project explores the research question:
 
-**For a toxic comment classifier on the YouTube comments dataset, how do LIME explanations and counterfactual text explanations compare in terms of faithfulness and actionability?** :contentReference[oaicite:2]{index=2}
+**For a toxic comment classifier on the YouTube comments dataset, how do LIME explanations and counterfactual text explanations compare in terms of faithfulness and actionability?** 
 
 The motivation is to support **content moderation** by helping:
 - **Moderators** understand why a comment was flagged
